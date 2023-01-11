@@ -1,0 +1,89 @@
+MODULE -1    DAY 1 TASK     DATE: 17/12/2022
+
+
+My answer is purely based on my understanding of the concept.
+ Write a blog on the Difference between HTTP1.1 vs HTTP2
+
+My answers:  
+HTTP means HYPERTEXT TRANSFER PROTOCOL. 
+
+
+USES: we can (CLIENT, ex browser:) make a request to the server to access the data from the web server.
+
+
+it is used in the client-server communication
+
+
+In  HTTP1.1 all requests and responses are simple text form or message format.
+
+   In HTTP2 all requests and responses are binary formats. Example. Cut the data into smaller packets.
+.
+
+HTTP 2 offers more security and protection than HTTP 1.1.
+
+
+   In HTTP 2 Client can receive more data in a single response.
+
+
+
+In HTTP1.1 server wait for the client to receive the first response then the server sends another response, it takes more time to share the data.
+
+
+
+Compare to HTTP 1.1 latency is lower in HTTP2. 
+
+
+
+
+
+
+—---------------------------------------------------------------------------------------------------------------------------------
+
+Write a blog about objects and its internal representation in Javascript.
+           This answer is based on my ZEN class understanding without browsing.
+
+My blog 1)   OBJECTS  contains keys and values or pair
+2)   we can access all the values in the object using keys [].
+
+3) Object also contains child objects or nested objects.
+
+4)  using the KEYWORD key  (KEYS IN THE OBJECT)  we can access all the keys present in the objects. Similarly using VALUES  we can access all the values present in the objects.
+
+5) Object starts and ends with flower brackets or { } { } or curly brackets.
+
+6) Array also comes under the object. I mean the type of array is an Object.
+
+7) we can also access all the keys and values of the object dynamically and parallelly through for loop.
+
+8) we can give string, numbers , booleans  , undefined, null, to the keys, i mean assigning  BOOLEANS, NUMBERS, UNDEFINED, NULL, to the keys.
+
+9) It is better and good practice to use the [] square brackets than( DOT NOTATION)while accessing the values of the keys.
+
+10) There is no position or index in the object-like array.
+
+11) The main thing is we can give the unique key to the object.
+
+12) we can add or assign new keys and values to the object.
+
+
+
+—----------------------------------------------------------------
+3) code kata practice.
+
+I restart my code kata practice in today morning.
+Beginning with Absolute beginner,.
+
+This is my first task submission i hope i gave my best answers,
+
+
+\
+
+
+
+
+
+
+ 
+
+ 
+       .
