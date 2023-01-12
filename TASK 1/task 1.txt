@@ -2,12 +2,19 @@ My answer is purely based on my understanding of the concept.
  Write a blog on the Difference between HTTP1.1 vs HTTP2
 
 My answers:  
+ BEFORE GO THE DIFFERNECE WE HAVE TO UNDERSTAND WHAT IS $ HTTP $ 
+ LETS SEE, 
+  in simple event we undertsand what is HTTP.
+   $ WHEN WE go to the coffe shop or hotels you send request (choose order) to the server then he or she gava what yoy want .This best example of http.This place you           are the client send send request to the server.
  * HTTP means HYPERTEXT TRANSFER PROTOCOL. 
+  
+  * In simple term two coputers or servers talk to each other.With help  of request and response.
   
  * USES: we can (CLIENT, ex browser:) make a request to the server to access the data from the web server.
 
  * it is used in the client-server communication
-
+ 
+ * It is set of rules and regulation to transfer the data.
 
  * In  HTTP1.1 all requests and responses are simple text form or message format.
 
@@ -21,9 +28,32 @@ My answers:
   * In HTTP1.1 server wait for the client to receive the first response then the server sends another response, it takes more time to share the data.
  
   * Compare to HTTP 1.1 latency is lower in HTTP2. 
+  
+  * Main difference  betwween the HTTP IN HTTTP 2 is REQUEST MULTIPLEXING,
+   
+   EXAMPEL : IN HTTP 1; client send multiple request to the server,
+           * http1 wants multiple tcp connection to the server,
+        client       tcp
+        html request --------- -------------------> server
+                        
+        css  reques  ---tcp-------------------------> server
+        jquery request ---- tcp------------------------> server
+        api (call) request ---- tcp------------------------> server
+        
+        
+       EXAMPEL HTTP 2 client send SINGLE  request with SINGLE TCP CONNECTION  to the server, and get  muliple number of data  from the server. that is SYNCHRONOUS;
+       
+       client     html, css,api, jquery  ----------------------------------------- > server
+                             
+       
+        
+        
+ SOME ADDED INFORMATION:
 
-
-
+  * HTTPS  [HYPE TEXT TRANSFER PROTOCOL SECURE] is advance version of the HTTP, https is more secure  than mormal http.
+  
+  * Advantage of the HTTPS is request and response are in the form of encryption and decryption,so client (browser have the option th decryet the response.
+ 
 
 
 
@@ -32,7 +62,9 @@ My answers:
 Write a blog about objects and its internal representation in Javascript.
            This answer is based on my ZEN class understanding without browsing.
 
-My blog 1)   OBJECTS  contains keys and values or pair
+My blog 
+1)   OBJECTS  contains keys and values or pair
+
 2)   we can access all the values in the object using keys [].
 
 3) Object also contains child objects or nested objects.
@@ -60,20 +92,11 @@ My blog 1)   OBJECTS  contains keys and values or pair
 —----------------------------------------------------------------
 3) code kata practice.
 
-I restart my code kata practice in today morning.
-Beginning with Absolute beginner,.
+Beginning with Absolute beginner and zen,.
+i made a consistency practice of code kata.from 6/1/2023 from now i practice two codekata problems daily;   
 
 This is my first task submission i hope i gave my best answers,
 
 
-\
-
-
-
-
-
-
- 
-
- 
-       .
+--------------------------------------------
+These points was taken from my zen class , some random search in googel and youTube and also my understanding;
