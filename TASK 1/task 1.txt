@@ -1,36 +1,26 @@
-
-
-
 My answer is purely based on my understanding of the concept.
  Write a blog on the Difference between HTTP1.1 vs HTTP2
 
 My answers:  
-HTTP means HYPERTEXT TRANSFER PROTOCOL. 
+ * HTTP means HYPERTEXT TRANSFER PROTOCOL. 
+  
+ * USES: we can (CLIENT, ex browser:) make a request to the server to access the data from the web server.
+
+ * it is used in the client-server communication
 
 
-USES: we can (CLIENT, ex browser:) make a request to the server to access the data from the web server.
+ * In  HTTP1.1 all requests and responses are simple text form or message format.
 
-
-it is used in the client-server communication
-
-
-In  HTTP1.1 all requests and responses are simple text form or message format.
-
-   In HTTP2 all requests and responses are binary formats. Example. Cut the data into smaller packets.
+ * In HTTP2 all requests and responses are binary formats. Example. Cut the data into smaller packets.
 .
 
-HTTP 2 offers more security and protection than HTTP 1.1.
+ *  HTTP 2 offers more security and protection than HTTP 1.1.
 
-
-   In HTTP 2 Client can receive more data in a single response.
-
-
-
-In HTTP1.1 server wait for the client to receive the first response then the server sends another response, it takes more time to share the data.
-
-
-
-Compare to HTTP 1.1 latency is lower in HTTP2. 
+  * In HTTP 2 Client can receive more data in a single response.
+ 
+  * In HTTP1.1 server wait for the client to receive the first response then the server sends another response, it takes more time to share the data.
+ 
+  * Compare to HTTP 1.1 latency is lower in HTTP2. 
 
 
 
